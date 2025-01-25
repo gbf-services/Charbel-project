@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodybuilding Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 2.5rem;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff6347;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .card:hover{
+            box-shadow: 1px 1px 10px 1px gray;
+        }
+        .testimonial {
+            background: #ff6347;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+        .contact-form {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background: #ff6347;
+            color: white;
+            padding: 0.7rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #e5533d;
+        }
+        .card a{
+            text-decoration: none;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Bodybuilding Hub</h1>
+    </header>
+    <nav>
+        <a href="#programs">Programs</a>
+        <a href="#footer">footer</a>
+    </nav>
+    <div class="container">
+        <section id="programs" class="section">
+            <div class="cards">
+                <div class="card">
+                    
+                    <a href="">
+                    <p>- Protéines - Essentielles pour la récupération musculaire <br>
+                        - Glucides - Source d'énergie pour l'entraînement <br> 
+                        - Bonnes graisses - Indispensables pour la production hormonale <br>
+                        - Hydratation - Boire suffisamment d'eau pour éviter la déshydratation</p>
+                    </a>
+                </div>
+                
+        </section>
+
+        <footer id="footer">
+            <p>&copy; 2025 Bodybuilding Hub. All rights reserved.</p>
+        </footer>
+    
+</body>
+</html>
